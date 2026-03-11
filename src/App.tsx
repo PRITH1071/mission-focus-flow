@@ -27,6 +27,7 @@ const App = () => (
           <Route path="/missions" element={<Missions />} />
           <Route path="/focus" element={<FocusMode />} />
           <Route path="/homework" element={<HomeworkTimer />} />
+          <Route path="/leaderboard" element={<Leaderboard />} />
           <Route path="/progress" element={<Progress />} />
           <Route path="/coach" element={<AICoach />} />
           <Route path="*" element={<NotFound />} />
