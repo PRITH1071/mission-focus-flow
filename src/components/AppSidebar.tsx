@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { LayoutDashboard, Target, Timer, BarChart3, MessageCircle, Home, Trophy, X, Menu, Clock, Medal, FileUp } from "lucide-react";
+import { LayoutDashboard, Target, Timer, BarChart3, MessageCircle, Home, Trophy, X, Menu, Clock, Medal, FileUp, BrainCircuit } from "lucide-react";
 import { useGameStore } from "@/lib/gameStore";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
