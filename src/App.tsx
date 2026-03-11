@@ -8,6 +8,7 @@ import Dashboard from "./pages/Dashboard";
 import Missions from "./pages/Missions";
 import FocusMode from "./pages/FocusMode";
 import HomeworkTimer from "./pages/HomeworkTimer";
+import Leaderboard from "./pages/Leaderboard";
 import Progress from "./pages/Progress";
 import AICoach from "./pages/AICoach";
 import NotFound from "./pages/NotFound";
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/missions" element={<Missions />} />
           <Route path="/focus" element={<FocusMode />} />
           <Route path="/homework" element={<HomeworkTimer />} />
+          <Route path="/leaderboard" element={<Leaderboard />} />
           <Route path="/progress" element={<Progress />} />
           <Route path="/coach" element={<AICoach />} />
           <Route path="*" element={<NotFound />} />
