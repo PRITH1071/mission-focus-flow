@@ -14,7 +14,45 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      homework_sessions: {
+        Row: {
+          actual_time_spent_minutes: number
+          completed_at: string
+          duration_minutes: number
+          id: string
+          title: string
+        }
+        Insert: {
+          actual_time_spent_minutes: number
+          completed_at?: string
+          duration_minutes: number
+          id?: string
+          title: string
+        }
+        Update: {
+          actual_time_spent_minutes?: number
+          completed_at?: string
+          duration_minutes?: number
+          id?: string
+          title?: string
+        }
+        Relationships: []
+      }
+      task_submissions: {
+        Row: {
+          email: string
+          id: number
+        }
+        Insert: {
+          email: string
+          id?: number
+        }
+        Update: {
+          email?: string
+          id?: number
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never

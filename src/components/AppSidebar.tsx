@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { LayoutDashboard, Target, Timer, BarChart3, MessageCircle, Home, Trophy, X, Menu } from "lucide-react";
+import { LayoutDashboard, Target, Timer, BarChart3, MessageCircle, Home, Trophy, X, Menu, Clock } from "lucide-react";
 import { useGameStore } from "@/lib/gameStore";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -9,6 +9,7 @@ const navItems = [
   { title: "Dashboard", url: "/dashboard", icon: LayoutDashboard },
   { title: "Missions", url: "/missions", icon: Target },
   { title: "Focus Mode", url: "/focus", icon: Timer },
+  { title: "Homework Timer", url: "/homework", icon: Clock },
   { title: "Progress", url: "/progress", icon: BarChart3 },
   { title: "AI Coach", url: "/coach", icon: MessageCircle },
 ];
