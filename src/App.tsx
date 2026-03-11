@@ -7,6 +7,7 @@ import Landing from "./pages/Landing";
 import Dashboard from "./pages/Dashboard";
 import Missions from "./pages/Missions";
 import FocusMode from "./pages/FocusMode";
+import HomeworkTimer from "./pages/HomeworkTimer";
 import Progress from "./pages/Progress";
 import AICoach from "./pages/AICoach";
 import NotFound from "./pages/NotFound";
