@@ -31,6 +31,7 @@ const App = () => (
           <Route path="/homework" element={<HomeworkTimer />} />
           <Route path="/leaderboard" element={<Leaderboard />} />
           <Route path="/submit" element={<SubmitHomework />} />
+          <Route path="/quiz" element={<PracticeQuiz />} />
           <Route path="/progress" element={<Progress />} />
           <Route path="/coach" element={<AICoach />} />
           <Route path="*" element={<NotFound />} />

@@ -11,6 +11,7 @@ const navItems = [
   { title: "Focus Mode", url: "/focus", icon: Timer },
   { title: "Homework Timer", url: "/homework", icon: Clock },
   { title: "Submit Homework", url: "/submit", icon: FileUp },
+  { title: "Practice Quiz", url: "/quiz", icon: BrainCircuit },
   { title: "Progress", url: "/progress", icon: BarChart3 },
   { title: "Leaderboard", url: "/leaderboard", icon: Medal },
   { title: "AI Coach", url: "/coach", icon: MessageCircle },
