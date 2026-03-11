@@ -68,6 +68,30 @@ export type Database = {
         }
         Relationships: []
       }
+      quiz_attempts: {
+        Row: {
+          completed_at: string
+          id: string
+          passed: boolean
+          score: number
+          subject: string
+        }
+        Insert: {
+          completed_at?: string
+          id?: string
+          passed?: boolean
+          score: number
+          subject: string
+        }
+        Update: {
+          completed_at?: string
+          id?: string
+          passed?: boolean
+          score?: number
+          subject?: string
+        }
+        Relationships: []
+      }
       task_submissions: {
         Row: {
           email: string
