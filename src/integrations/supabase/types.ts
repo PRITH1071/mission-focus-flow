@@ -14,6 +14,30 @@ export type Database = {
   }
   public: {
     Tables: {
+      homework_sessions: {
+        Row: {
+          actual_time_spent_minutes: number
+          completed_at: string
+          duration_minutes: number
+          id: string
+          title: string
+        }
+        Insert: {
+          actual_time_spent_minutes: number
+          completed_at?: string
+          duration_minutes: number
+          id?: string
+          title: string
+        }
+        Update: {
+          actual_time_spent_minutes?: number
+          completed_at?: string
+          duration_minutes?: number
+          id?: string
+          title?: string
+        }
+        Relationships: []
+      }
       task_submissions: {
         Row: {
           email: string
