@@ -9,6 +9,7 @@ const navItems = [
   { title: "Dashboard", url: "/dashboard", icon: LayoutDashboard },
   { title: "Missions", url: "/missions", icon: Target },
   { title: "Focus Mode", url: "/focus", icon: Timer },
+  { title: "Homework Timer", url: "/homework", icon: Clock },
   { title: "Progress", url: "/progress", icon: BarChart3 },
   { title: "AI Coach", url: "/coach", icon: MessageCircle },
 ];
