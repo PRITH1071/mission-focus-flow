@@ -38,6 +38,36 @@ export type Database = {
         }
         Relationships: []
       }
+      homework_submissions: {
+        Row: {
+          description: string
+          file_name: string | null
+          file_url: string | null
+          id: string
+          subject: string
+          submitted_at: string
+          time_spent_minutes: number
+        }
+        Insert: {
+          description?: string
+          file_name?: string | null
+          file_url?: string | null
+          id?: string
+          subject: string
+          submitted_at?: string
+          time_spent_minutes?: number
+        }
+        Update: {
+          description?: string
+          file_name?: string | null
+          file_url?: string | null
+          id?: string
+          subject?: string
+          submitted_at?: string
+          time_spent_minutes?: number
+        }
+        Relationships: []
+      }
       task_submissions: {
         Row: {
           email: string
